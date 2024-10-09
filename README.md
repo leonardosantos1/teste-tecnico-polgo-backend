@@ -62,7 +62,7 @@ URL EXAMPLE: {application_url}/winners
 }
 ```
 
-##Considerações e Observações:
+## Considerações e Observações:
 A aplicação foi feita deploy no Render, ela pode ter um tempo demorado (2, 3 minutos) nas primeiras chamadas por causa da localização. O registro de ganhadores tem que seguir o formato OK do payload, o campo date deve ser preenchido com o formato YYYY-MM-DD.
 Agradeço pelo oportunidade de participar do processo seletivo, achei muito legal a ideia da atividade, estava a 4/5 meses sem programar, e voltar e realizar um projeto desses, foi bem desafiador, gratificante e divertido. Foi realizado a atividade em 5 dias
 
