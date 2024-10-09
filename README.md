@@ -35,31 +35,37 @@ Failed:
 }
 ```
 
-###Rotas:
+### Rotas:
 
-Buscar ganhador especifico por ID:
-Method: GET
+#### Buscar ganhador especifico por ID:
+#### Method: GET
+<br>
 URL EXAMPLE: {application_url}/winners/:id
 
-Buscar todos os ganhadores
-Method: GET
+#### Buscar todos os ganhadores
+#### Method: GET
+<br>
 URL EXAMPLE: {application_url}/winners
 
 
-Deletar ganhador especifico por ID:
-Method: DELETE
+#### Deletar ganhador especifico por ID:
+#### Method: DELETE
+<br>
 URL EXAMPLE: {application_url}/winners/:id
 
-Inserir ganhador
-Method: POST
+#### Inserir ganhador
+#### Method: POST
+<br>
 URL EXAMPLE: {application_url}/winners
+<br>
 Body:
+```
 {
   "name":"Leonardo",
   "prize":"PC GAMER",
   "date":"2024-10-09"
 }
-
+```
 
 ##Considerações e Observações:
 A aplicação foi feita deploy no Render, ela pode ter um tempo demorado (2, 3 minutos) nas primeiras chamadas por causa da localização. O registro de ganhadores tem que seguir o formato OK do payload, o campo date deve ser preenchido com o formato YYYY-MM-DD.
