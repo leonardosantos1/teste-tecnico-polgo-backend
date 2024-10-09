@@ -39,25 +39,20 @@ Failed:
 
 #### Buscar ganhador especifico por ID:
 #### Method: GET
-<br>
 URL EXAMPLE: {application_url}/winners/:id
 
 #### Buscar todos os ganhadores
 #### Method: GET
-<br>
 URL EXAMPLE: {application_url}/winners
 
 
 #### Deletar ganhador especifico por ID:
 #### Method: DELETE
-<br>
 URL EXAMPLE: {application_url}/winners/:id
 
 #### Inserir ganhador
 #### Method: POST
-<br>
 URL EXAMPLE: {application_url}/winners
-<br>
 Body:
 ```
 {
