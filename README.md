@@ -1,6 +1,6 @@
 ## Teste tecnico Polgo backend
 
-## Instalar dependecias do projeto caso for executar o mesmo localmente:
+### Instalar dependecias do projeto caso for executar o mesmo localmente:
 ```
 npm install
 ```
@@ -35,7 +35,7 @@ Failed:
 }
 ```
 
-### Rotas:
+## Rotas:
 
 #### Buscar ganhador especifico por ID:
 #### Method: GET
